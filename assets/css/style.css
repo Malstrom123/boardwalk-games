@@ -59,13 +59,45 @@ h2 {
 .custom-button-outline {
     border: 3px solid var(--highlight-color);
     padding: 7px 25px;
-    color: var(--highlight-color)
+    color: var(--highlight-color);
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .custom-button-outline:hover {
     background-color: var(--highlight-color);
     color: white
 }
+
+/* Events / buttons */
+
+.table {
+    font-size: 0.8rem;
+}
+
+.custom-button-event-filled {
+    border: 2px solid var(--highlight-color);
+    background-color: var(--highlight-color);
+    color: white;
+    border-radius: 0;
+}
+
+.custom-button-event-filled:hover {
+    border: 2px solid var(--secondary-color);
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.custom-button-event-outline {
+    border: 3px solid var(--highlight-color);
+    padding: 7px 25px;
+    color: var(--highlight-color);
+}
+
+.custom-button-event-outline:hover {
+    background-color: var(--highlight-color);
+    color: white;
+} 
 
 /* Navbar */
 
@@ -149,6 +181,12 @@ h2 {
 } */
 
 /* Media queries */
+
+/* Medium devices (tablets, 320px and up */
+@media screen and (min-width: 320px) {
+    /* Make all service cards the same height for consistency*/
+    
+}
 
 /* Medium devices (tablets, 768px and up */
 @media screen and (min-width: 768px) {
